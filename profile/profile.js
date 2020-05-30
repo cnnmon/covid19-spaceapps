@@ -9,5 +9,5 @@ function displayWellness() {
 }
 
 $(document).ready(function() {
-    document.getElementById('WELLNESS').style.display = 'none';
+    $('#WELLNESS').hide();
 });
